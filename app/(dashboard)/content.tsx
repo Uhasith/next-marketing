@@ -1,9 +1,8 @@
 "use client";
 
+import { Button, Progress, Tabs, TabsRef } from "flowbite-react";
 import type { NextPage } from "next";
-import { Button, Tabs, TabsRef } from "flowbite-react";
 import { useRef, useState } from "react";
-import { Progress } from "flowbite-react";
 
 export const HomePageContent: NextPage = function () {
   const tabsRef = useRef<TabsRef>(null);
