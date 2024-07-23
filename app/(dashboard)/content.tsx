@@ -12,7 +12,7 @@ export const HomePageContent: NextPage = function () {
   return (
     <>
       <div className="min-h-[100vh] p-6">
-        {/* searchbar container section */}
+        {/* search bar container section */}
         <div className="flex items-center justify-between">
           <div className="w-[20%]">
             <h1 className="text-3xl font-bold">Dashboard</h1>
@@ -245,7 +245,6 @@ export const HomePageContent: NextPage = function () {
                 </form>
               </div>
             </div>
-          </div>
 
           <div className="mt-5">
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -700,6 +699,7 @@ export const HomePageContent: NextPage = function () {
             </nav>
           </div>
         </div>
+      </div>
       <CorseDrawer openCourseDrawer={openCourseDrawer} setOpenCourseDrawer={setOpenCourseDrawer}/>
     </>
   );
