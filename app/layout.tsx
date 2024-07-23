@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Flowbite } from "flowbite-react";
+import { Flowbite, ThemeModeScript } from "flowbite-react";
 import { Inter as FontSans } from "next/font/google";
 import { Suspense, type FC, type PropsWithChildren } from "react";
 import "./globals.css";
@@ -13,9 +13,9 @@ const fontSans = FontSans({
 const RootLayout: FC<PropsWithChildren> = function ({ children }) {
   return (
     <html lang="en">
-      {/* <head>
+      <head>
         <ThemeModeScript />
-      </head> */}
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
