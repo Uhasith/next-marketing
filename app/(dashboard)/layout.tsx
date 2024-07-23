@@ -2,7 +2,7 @@
 
 import { SidebarProvider } from "@/context/SidebarContext";
 import type { FC, PropsWithChildren } from "react";
-import { DashboardSidebar } from "./sidebar";
+import { DashboardSidebar } from "./navbar";
 
 const DashboardLayout: FC<PropsWithChildren> = function ({ children }) {
   return (
